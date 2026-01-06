@@ -47,17 +47,17 @@ The component editors in `components/sidebar/editors/` are not implemented. You 
 **Text Component** (`TextEditor.tsx`)
 - Text content
 - Container alignment
-- Styling: fontSize, color, fontWeight, textAlign, margin, padding
+- Styling 
 
 **Button Component** (`ButtonEditor.tsx`)
 - Button text
 - Container alignment
-- Styling: backgroundColor, color, borderRadius, padding, fontSize, fontWeight, border
+- Styling
 
 **Image Component** (`ImageEditor.tsx`)
 - Image URL, alt text
 - Container alignment
-- Styling: width, height, borderRadius, objectFit
+- Styling
 
 ## Component Data Structure
 
