@@ -72,14 +72,11 @@ Components have this structure:
   props: {
     // Component-specific props (text, src, alt, etc.)
     styling: {
-      // CSS properties as camelCase keys with string values
       // e.g., { fontSize: '16px', color: '#000000' }
     }
   }
 }
 ```
-
-The `styling` object uses CSS property names in camelCase (React inline style format).
 
 ## Success Criteria
 
