@@ -39,13 +39,13 @@ export const ComponentEditor = ({ component, onUpdate, onBack }: ComponentEditor
 
       <div className="flex-1 overflow-auto p-4">
         {isTextComponent(component) && (
-          <TextEditor component={component} onUpdate={onUpdate} />
+          <TextEditor component={component}/>
         )}
         {isButtonComponent(component) && (
-          <ButtonEditor component={component} onUpdate={onUpdate} />
+          <ButtonEditor component={component}/>
         )}
         {isImageComponent(component) && (
-          <ImageEditor component={component} onUpdate={onUpdate} />
+          <ImageEditor component={component}/>
         )}
       </div>
     </div>

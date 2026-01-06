@@ -1,3 +1,5 @@
+import { CSSProperties } from 'react';
+
 // Component type definitions for the site builder
 
 export type ComponentType = 'text' | 'button' | 'image';
@@ -9,11 +11,12 @@ export interface Container {
 }
 
 // Styling interfaces for each component type
+// Using React CSSProperties for proper type compatibility with inline styles
 export interface TextStyling {
   fontSize: string;
   color: string;
   fontWeight: string;
-  textAlign: string;
+  textAlign: CSSProperties['textAlign'];
   margin: string;
   padding: string;
 }
@@ -32,7 +35,7 @@ export interface ImageStyling {
   width: string;
   height: string;
   borderRadius: string;
-  objectFit: string;
+  objectFit: CSSProperties['objectFit'];
 }
 
 // Component props interfaces
