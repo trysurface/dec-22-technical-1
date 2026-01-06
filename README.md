@@ -15,8 +15,6 @@ The component editors in `components/sidebar/editors/` are not implemented. You 
 
 **Build the editor forms** that allow editing component properties
 
-### Components to Edit
-
 - **Text Component** (`TextEditor.tsx`)
 - **Button Component** (`ButtonEditor.tsx`)
 - **Image Component** (`ImageEditor.tsx`)
